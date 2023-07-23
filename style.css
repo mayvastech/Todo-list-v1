@@ -24,14 +24,19 @@ h1 {
 }
 
 .input-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
 .todo-input {
   border-style: none;
-  padding: 10px;
-  border-radius: 15px;
+  padding: 15px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.todo-input:focus {
+  outline: none;
 }
