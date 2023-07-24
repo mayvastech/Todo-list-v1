@@ -40,3 +40,11 @@ h1 {
 .todo-input:focus {
   outline: none;
 }
+
+#add-task-btn {
+  border-style: none;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(255, 136, 0);
+  color: #fff;
+}
